@@ -48,4 +48,4 @@ class PrimeNumbersTest(unittest.TestCase):
             prime_num_listing("n")
 
 if __name__ == "__main__":
-unittest.main()
+    unittest.main()
