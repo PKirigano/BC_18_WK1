@@ -11,4 +11,4 @@ def prime_num_listing(n):
                     primes.append(number)  # Add the number to the list of prime numbers
             return primes
     elif not isinstance(n, int):
-raise ValueError("Please enter an integer to generate a list of primes")
+        raise ValueError("Please enter an integer to generate a list of primes")
